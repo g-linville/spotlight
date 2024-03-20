@@ -1,0 +1,4 @@
+Description: Searches Spotlight for the given query and selects the first result.
+Args: query: The query to search for.
+
+#!/bin/zsh cat ${GPTSCRIPT_TOOL_DIR}/spotlight.scpt.template | sed "s/PLACEHOLDER/${query}/" | osascript
