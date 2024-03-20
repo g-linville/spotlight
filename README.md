@@ -7,7 +7,7 @@ Unfortunately it seems that there is no actual API for Spotlight.
 ## Example
 
 ```
-tools: tool.gpt
+tools: github.com/g-linville/spotlight
 
 Use Spotlight to launch Microsoft Teams.
 ```
